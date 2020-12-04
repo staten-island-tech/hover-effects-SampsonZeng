@@ -1,15 +1,14 @@
 @import "./variables";
 
 .icecream-parent {
-  width: 60rem;
-  height: 40rem;
+  width: 55rem;
+  height: 50rem;
 }
 .icecream-gallery {
   margin: 3rem;
   position: relative;
 }
 .ice-photo {
-  position: absolute;
   height: 20rem;
   box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.4);
   outline-offset: 1rem;
@@ -22,7 +21,7 @@
   z-index: 2;
 }
 .icecream-gallery:hover .ice-photo:not(:hover) {
-  transform: scale(0.8);
+  transform: scale(1);
   opacity: 0.3;
 }
 .ice-photo-1 {
