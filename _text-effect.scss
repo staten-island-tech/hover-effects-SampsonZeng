@@ -3,6 +3,7 @@
   background-image: url("./media/water.jpg");
   background-position: center;
   color: transparent;
+  transition: all 0.3s;
   font-size: 8rem;
   -webkit-background-clip: text;
 }
@@ -10,4 +11,5 @@
 .text-effect:hover {
   transform: skewY(-10deg);
   letter-spacing: 3rem;
+  transition: all 0.3s;
 }
