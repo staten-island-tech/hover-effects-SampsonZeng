@@ -1,10 +1,10 @@
 @import "./variables";
 
-.icecream-parent {
+.ninja-parent {
   width: 70rem;
   height: 55rem;
 }
-.icecream-gallery {
+.ninja-gallery {
   margin: 3rem;
   position: relative;
 }
@@ -19,7 +19,7 @@
   outline: 1rem solid blue;
   z-index: 2;
 }
-.icecream-gallery:hover .ice-photo:not(:hover) {
+.ninja-gallery:hover .ice-photo:not(:hover) {
   transform: scale(1);
   opacity: 0.3;
 }
